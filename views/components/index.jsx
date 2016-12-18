@@ -41,7 +41,7 @@ export default class App extends Component
         console.log(this.refs.reactCroppie)
         const result = this.refs.reactCroppie._get()
         console.log(result)
-        alert(result)
+        alert(JSON.stringify(result))
         // this.refs.reactCroppie._updateCenterPoint({
         //     url: this.state.src,
         //     point: result.point
