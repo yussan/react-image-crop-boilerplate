@@ -49,11 +49,6 @@ export default class App extends Component
         // this.refs.reactCroppie._currentZoom = (result.zoom)
     }
 
-    handleUpdate(n)
-    {
-        console.log(n)
-    }
-
     render()
     {
         const {src, result} = this.state
